@@ -1,9 +1,0 @@
-#!/bin/sh
-
-echo "n
-p
-3
-
-
-w
-" | fdisk /dev/sda && mkfs.ext4 /dev/sda3
